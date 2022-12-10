@@ -2,9 +2,13 @@
 
 ***
 ## How to run my code
-all models are under primeModel file
-modelX=2.h5, modelX=4.h5, modelX=10.h5 are saved when acc first dropped 2%, 4%, and 10%
-modelXX=10.h5 is saved when acc first dropped 20% (it should be named as modelX=20.h5)
+All models are under primeModel file  
+modelX=2.h5, modelX=4.h5, modelX=10.h5 are saved when acc first dropped 2%, 4%, and 10%  
+**modelXX=10.h5 is saved when acc first dropped 20% (I should name it as modelX=20.h5)** 
+
+use command   
+`python3 eval.py <data path> <model path>`  
+to run the evaluate the model
 
 ## Lab2 report
 
