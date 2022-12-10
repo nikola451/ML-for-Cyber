@@ -42,7 +42,7 @@ Attack Success Rate for repaired net X: 77.20966484801247
 Clean Classification accuracy for repaired net XX: 76.16523772408418  
 Attack Success Rate for repaired net XX: 36.26656274356976**
 
-As we can see, repaired net XX significantly reduces the success rate of attack while ensuring the accuracy of classification.
+As we can see, repaired net XX **(saved when validation accuracy drops at least 20%)** significantly reduces the success rate of attack while ensuring the accuracy of classification.
 
 
 
